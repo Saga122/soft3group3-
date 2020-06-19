@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git push
+git pull
 mvn clean package
 
 docker-compose down
